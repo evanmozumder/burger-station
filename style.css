@@ -6,9 +6,14 @@ body {
 }
 h1 {
   font-size: 55px;
+  font-weight: 5;
+}
+h2 {
+  font-size: 40px;
 }
 .flex-container {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -22,7 +27,8 @@ h1 {
   padding-top: 150px;
 }
 .half-width p {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  font-weight: 10;
 }
 .linked-button {
   color: white;
@@ -31,4 +37,17 @@ h1 {
   text-decoration: none;
   border-radius: 40px;
   font-weight: 400;
+}
+.background {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+.about-section {
+  width: 30%;
+  padding-top: 120px;
+}
+.background img {
+  width: 50%;
+  padding-left: 150px;
+  padding-top: 63px;
 }
