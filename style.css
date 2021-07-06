@@ -13,6 +13,7 @@ h2 {
 }
 .flex-container {
   display: flex;
+  margin: auto;
   margin-bottom: 100px;
 }
 .half-width {
@@ -81,4 +82,14 @@ h2 {
 .individual {
   margin: 0px 110px;
   padding: 20px 0px;
+  font-weight: 900;
+}
+.motive {
+  text-align: center;
+  color: gray;
+  background-color: black;
+  padding: 3px 0px 100px;
+}
+.motive span {
+  color: rgb(214, 122, 47);
 }
